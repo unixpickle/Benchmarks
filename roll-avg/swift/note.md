@@ -1,0 +1,1 @@
+See the note in the C test ([click here](../c/note.md), if you're on GitHub)
