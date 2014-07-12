@@ -36,7 +36,7 @@ if C_ARGC != 3 {
 }
 
 let start = String.fromCString(C_ARGV[1])!.toInt()!
-let end = String.fromCString(C_ARGV[1])!.toInt()!
+let end = String.fromCString(C_ARGV[2])!.toInt()!
 
 for i in start...end {
   println("rollAverage(\(i)) = \(rollAverage(Int(i)))")

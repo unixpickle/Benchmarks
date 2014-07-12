@@ -18,7 +18,7 @@ double rollAverage(int dest) {
 
 main(List<String> arguments) {
   if (arguments.length != 2) {
-    print("Usage: dart <start> <end>");
+    print("Usage: dart main.dart <start> <end>");
     exit(1);
   }
   int start = int.parse(arguments[0]);

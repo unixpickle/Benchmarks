@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FA0E8558196F609500955123 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0E8557196F609500955123 /* main.swift */; };
+		FAC83ACA1970A1F100E03EAC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC83AC91970A1F100E03EAC /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		FA0E8552196F609500955123 /* CopyFiles */ = {
+		FAC83AC41970A1F100E03EAC /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		FA0E8554196F609500955123 /* rolling-avg */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "rolling-avg"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA0E8557196F609500955123 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		FAC83AC61970A1F100E03EAC /* array-reverse */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "array-reverse"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC83AC91970A1F100E03EAC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FA0E8551196F609500955123 /* Frameworks */ = {
+		FAC83AC31970A1F100E03EAC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,94 +38,94 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FA0E854B196F609500955123 = {
+		FAC83ABD1970A1F100E03EAC = {
 			isa = PBXGroup;
 			children = (
-				FA0E8556196F609500955123 /* rolling-avg */,
-				FA0E8555196F609500955123 /* Products */,
+				FAC83AC81970A1F100E03EAC /* array-reverse */,
+				FAC83AC71970A1F100E03EAC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		FA0E8555196F609500955123 /* Products */ = {
+		FAC83AC71970A1F100E03EAC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FA0E8554196F609500955123 /* rolling-avg */,
+				FAC83AC61970A1F100E03EAC /* array-reverse */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FA0E8556196F609500955123 /* rolling-avg */ = {
+		FAC83AC81970A1F100E03EAC /* array-reverse */ = {
 			isa = PBXGroup;
 			children = (
-				FA0E8557196F609500955123 /* main.swift */,
+				FAC83AC91970A1F100E03EAC /* main.swift */,
 			);
-			path = "rolling-avg";
+			path = "array-reverse";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FA0E8553196F609500955123 /* rolling-avg */ = {
+		FAC83AC51970A1F100E03EAC /* array-reverse */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FA0E855B196F609500955123 /* Build configuration list for PBXNativeTarget "rolling-avg" */;
+			buildConfigurationList = FAC83ACD1970A1F100E03EAC /* Build configuration list for PBXNativeTarget "array-reverse" */;
 			buildPhases = (
-				FA0E8550196F609500955123 /* Sources */,
-				FA0E8551196F609500955123 /* Frameworks */,
-				FA0E8552196F609500955123 /* CopyFiles */,
+				FAC83AC21970A1F100E03EAC /* Sources */,
+				FAC83AC31970A1F100E03EAC /* Frameworks */,
+				FAC83AC41970A1F100E03EAC /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "rolling-avg";
-			productName = "rolling-avg";
-			productReference = FA0E8554196F609500955123 /* rolling-avg */;
+			name = "array-reverse";
+			productName = "array-reverse";
+			productReference = FAC83AC61970A1F100E03EAC /* array-reverse */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FA0E854C196F609500955123 /* Project object */ = {
+		FAC83ABE1970A1F100E03EAC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = "Alex Nichol";
 				TargetAttributes = {
-					FA0E8553196F609500955123 = {
+					FAC83AC51970A1F100E03EAC = {
 						CreatedOnToolsVersion = 6.0;
 					};
 				};
 			};
-			buildConfigurationList = FA0E854F196F609500955123 /* Build configuration list for PBXProject "rolling-avg" */;
+			buildConfigurationList = FAC83AC11970A1F100E03EAC /* Build configuration list for PBXProject "array-reverse" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = FA0E854B196F609500955123;
-			productRefGroup = FA0E8555196F609500955123 /* Products */;
+			mainGroup = FAC83ABD1970A1F100E03EAC;
+			productRefGroup = FAC83AC71970A1F100E03EAC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FA0E8553196F609500955123 /* rolling-avg */,
+				FAC83AC51970A1F100E03EAC /* array-reverse */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FA0E8550196F609500955123 /* Sources */ = {
+		FAC83AC21970A1F100E03EAC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA0E8558196F609500955123 /* main.swift in Sources */,
+				FAC83ACA1970A1F100E03EAC /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		FA0E8559196F609500955123 /* Debug */ = {
+		FAC83ACB1970A1F100E03EAC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -166,7 +166,7 @@
 			};
 			name = Debug;
 		};
-		FA0E855A196F609500955123 /* Release */ = {
+		FAC83ACC1970A1F100E03EAC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -200,7 +200,7 @@
 			};
 			name = Release;
 		};
-		FA0E855C196F609500955123 /* Debug */ = {
+		FAC83ACE1970A1F100E03EAC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_OPTIMIZATION_LEVEL = 3;
@@ -209,7 +209,7 @@
 			};
 			name = Debug;
 		};
-		FA0E855D196F609500955123 /* Release */ = {
+		FAC83ACF1970A1F100E03EAC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_OPTIMIZATION_LEVEL = 3;
@@ -221,25 +221,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FA0E854F196F609500955123 /* Build configuration list for PBXProject "rolling-avg" */ = {
+		FAC83AC11970A1F100E03EAC /* Build configuration list for PBXProject "array-reverse" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FA0E8559196F609500955123 /* Debug */,
-				FA0E855A196F609500955123 /* Release */,
+				FAC83ACB1970A1F100E03EAC /* Debug */,
+				FAC83ACC1970A1F100E03EAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FA0E855B196F609500955123 /* Build configuration list for PBXNativeTarget "rolling-avg" */ = {
+		FAC83ACD1970A1F100E03EAC /* Build configuration list for PBXNativeTarget "array-reverse" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FA0E855C196F609500955123 /* Debug */,
-				FA0E855D196F609500955123 /* Release */,
+				FAC83ACE1970A1F100E03EAC /* Debug */,
+				FAC83ACF1970A1F100E03EAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FA0E854C196F609500955123 /* Project object */;
+	rootObject = FAC83ABE1970A1F100E03EAC /* Project object */;
 }
