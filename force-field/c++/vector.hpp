@@ -46,7 +46,7 @@ struct Vector {
   Vector Normalize() const {
     double magnitude = sqrt(Dot(*this));
     if (!magnitude) return Vector(0, 0);
-    return (*this) * (1 / magnitude);
+    return (*this) * (1.0 / magnitude);
   }
 };
 
