@@ -8,6 +8,8 @@ This is the most involved of the benchmarks I've created so far. It primarily se
 
 Because this is the most involved test, there are many slight differences between each implementation. For example, in some languages I was able to use operator overloading, while in others I needed to create regular methods to perform the equivalent operations. If you have any suggestions on how to make this test more fair, go ahead and leave a pull request demonstrating how your change affects the results.
 
+**This benchmark serves two purposes which may conflict if you choose to rewrite it in a different language.** While this benchmark tests object creation/destruction performance, it also guages a language's ability to perform vector arithmetic. Thus, if you write your own implementation of this in a language that has native vector support, you may want to write a version with the native vector type, and a version with your own custom vector implementation. This way, one test will guage the performance of custom object management, while the other will show the language's vectorization optimizations.
+
 # Results
 
 For this test I found it appropriate to use C++ instead of C. In C++, I use stack allocation exclusively to avoid expensive allocations. I believe that this is fair because no other language (besides maybe Swift) technically supports such a feature.
