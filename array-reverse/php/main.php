@@ -7,11 +7,11 @@ if ($argc != 3)
 }
 
 
-$myList = range(0, $argv[1]);
+$myList = range(0, $argv[1] - 1);
 
 for ($i = 0; $i < $argv[2]; $i++)
 {
-	reverseArray($array);
+	reverseArray($myList);
 }
 
 /**
