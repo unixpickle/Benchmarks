@@ -6,12 +6,12 @@ if ($argc != 3)
 	exit(1);
 }
 
-$start = (int)$argv[1];
-$end = (int)$argv[2];
+$start = $argv[1];
+$end = $argv[2];
 
 for ($i = $start; $i <= $end; $i++)
 {
-	printf("rollAverage(%d) = %f\n", $i, rollAverage($i));
+	printf("rollAverage(%d) = %d\n", $i, rollAverage($i));
 }
 
 
