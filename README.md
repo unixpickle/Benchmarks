@@ -3,9 +3,9 @@
 These are some simple language benchmarks I am running on the following seven programming languages:
 
  * C - Apple LLVM version 5.0 (clang-500.2.79)
- * Dart - Dart VM version: 1.4.0 (Tue May 20 04:37:56 2014) on "macos_x64"
+ * Dart - Dart VM version 1.5.3 (Thu Jul 3 02:27:23 2014) on "macos_x64"
  * Java - java version "1.6.0_65"
- * JavaScript - v8 (under node node v0.10.24)
+ * JavaScript - v8 (under node v0.10.29)
  * Python - both 3.3.0 and 2.7.5
  * Ruby - ruby 2.0.0p451 (2014-02-24 revision 45167)
  * Swift - Xcode6, preview 3, "Version 6.0 (6A254o)"
@@ -26,6 +26,8 @@ Function calls have overhead. In C with optimizations, this overhead is pretty l
 
 Arithmetic operations are (mostly) single CPU instructions. It is up to various languages to leverage this to perform to the best of the CPU's ability.
 
-### Memory access
+### Memory
 
-Accessing elements in arrays and updating variables should both be speedy operations.
+Accessing elements in arrays and updating variables should both be speedy operations. Allocating memory in the form of object construction should also be efficient.
+
+In a langauge like C++, it is sometimes possible to avoid dynamic memory allocation altogether in favor of stack allocation. On the other hand, a langauge like Java forces you to create objects using the `new` operator.
