@@ -8,9 +8,9 @@ struct Particle {
   double mass;
   Vector velocity;
   
-  Particle() {}
   Particle(const Vector & pos, double _mass) : position(pos), mass(_mass) {}
   
+  Particle() = delete;
   Particle(const Particle & p) = delete;
   Particle & operator=(const Particle & p) = delete;
   
@@ -18,7 +18,7 @@ struct Particle {
     Vector distance = p.position - position;
     
     // G*m1*m1/d^2, assuming G=1
-    double magnitude = mass * p.mass / (distance.Dot(distance));
+    double magnitude = mass * p.mass / distance.Dot(distance);
     
     return distance.Normalize() * magnitude;
   }

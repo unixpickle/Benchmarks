@@ -4,12 +4,6 @@ class Particle {
   public double mass;
   public Vector velocity;
   
-  public Particle() {
-    position = new Vector();
-    mass = 0;
-    velocity = new Vector();
-  }
-  
   public Particle(Vector pos, double _mass) {
     position = pos;
     mass = _mass;

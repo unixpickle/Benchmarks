@@ -9,8 +9,8 @@ if (process.argv.length !== 4) {
 var timeDelta = parseFloat(process.argv[2]);
 var count = parseInt(process.argv[3]);
 
-var p1 = new Particle(-1, new Vector(0.3, 0));
-var p2 = new Particle(1, new Vector(-0.3, 1));
+var p1 = new Particle(new Vector(0.3, 0), -1);
+var p2 = new Particle(new Vector(-0.3, 1), 1);
 
 for (var i = 0; i < count; i++) {
   var force1 = p1.forceFrom(p2);

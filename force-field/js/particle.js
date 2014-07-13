@@ -1,8 +1,8 @@
 var Vector = require('./vector');
 
-function Particle(mass, position) {
-  this.mass = mass;
+function Particle(position, mass) {
   this.position = position;
+  this.mass = mass;
   this.velocity = new Vector();
 }
 
