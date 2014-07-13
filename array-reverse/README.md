@@ -1,12 +1,12 @@
 # The test
 
-This program takes two arguments: the size of an array, and the number of times to reverse it. It creates the array as a sequential list of integers, and then calls a `reverseArray` method the specified number of times.
+This program takes two arguments: the size of an array, and the number of times to reverse it. It creates the array as a sequential list of integers, and then calls a `reverseArray` method in a loop.
 
-This test shows how close a language's array performance comes to actual pointer performance. Additionally, it requires a tight loop and many function calls.
+This test shows how close a language's array performance comes to raw memory performance. Additionally, it requires a tight loop and many function calls.
 
 # Results
 
-These results are all using a list of 100,000 elements. Some results will be scaled (since the Python and Ruby tests take too long otherwise). The end measurement is how long it took to reverse the array 100,000 times.
+These results all use a list of 100,000 elements. Some results will be scaled (since the Python and Ruby tests take too long otherwise). The end measurement is how long it took (or *would* take) to reverse the array 100,000 times.
 
 | Language   | Time (s) |
 |------------|----------|

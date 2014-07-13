@@ -68,7 +68,7 @@ Here is a recap of each of the three benchmarks I have done so far. You should r
 
 # Fairness
 
-I tried very hard to make every implementation of each test close in structure. With that being said, some languages have some features others don't, and I may easily have missed a feature I shouldn't have. If this is the case, go ahead and make a pull request or file an issue and explain why I tested a certain language unfairly.
+I tried very hard to make every implementation of each test close in structure. With that being said, some languages have some features others don't, and I easily may have missed a feature I shouldn't have. If this is the case, go ahead and make a pull request or file an issue and explain why I tested a certain language unfairly.
 
 None of these tests are the "best way" to do what they do. Instead, the tests are *designed* to be inefficient in order to get a significant result from various optimizers.
 
@@ -76,11 +76,11 @@ None of these tests are the "best way" to do what they do. Instead, the tests ar
 
 ### Loops
 
-Some looping mechanisms are better than others. For instance, creating an array with 10000 consecutive integers and then iterating over them is *not* an efficient way to loop.
+Some looping mechanisms are better than others. For instance, creating an array with 10000 consecutive integers and then iterating over them is *not* an efficient way to loop. But don't worry, in Python 2 I avoid using `range()` for large loops in favor of `xrange()`.
 
 ### Function calls
 
-Function calls have overhead. In C with optimizations, this overhead is pretty low. However, in other languages like Python and Ruby, function calls may be rather expensive.
+Function calls have overhead. In C with optimizations, this overhead is pretty low and sometimes even non-existant (with inlining). However, in other languages like Python and Ruby, function calls may be rather expensive.
 
 ### Arithmetic
 
@@ -92,4 +92,4 @@ Accessing elements in arrays and updating variables should both be speedy operat
 
 ### Object creation
 
-Allocating memory in the form of object construction should also be efficient. In a langauge like C++, it is sometimes possible to avoid dynamic memory allocation altogether in favor of stack allocation. On the other hand, a langauge like Java forces you to create objects using the `new` operator.
+Allocating memory through object construction should be very fast. In a langauge like C++, it is sometimes possible to avoid dynamic memory allocation altogether in favor of stack allocation. On the other hand, a langauge like Java forces you to create objects using the `new` operator.

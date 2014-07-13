@@ -1,12 +1,12 @@
 # The test
 
-This program has a very inefficient subroutine to compute the sum of every integer up to a certain value (i.e. 1 + 2 + 3 + 4 + ... + n). Also included is a function which performs a makeshift average on the sums. Essentially, it averages 1 and 2, then averages that with (1 + 2 + 3), and then averages that with (1 + 2 + 3 + 4), etc. It does this a specified number of times.
+This program has a very inefficient subroutine to compute the sum of every integer up to a certain value (i.e. 1 + 2 + 3 + 4 + ... + n). Also included is a function which performs a makeshift average on the sums. Essentially, it averages 1 and 2, then averages that with (1 + 2 + 3), and then averages that with (1 + 2 + 3 + 4), etc. It does this up to a specified maximum. Thus, the (unoptimized) average method runs in O(n^2) time.
 
-The program takes two arguments which are the start and end indexes. The program will then call the rolling average function with each argument between and including these boundaries, printing the result each time.
+The program takes two arguments which are the start and end indexes. The program will call the rolling average function with each argument between and including these boundaries, printing the result each time.
 
 # Results
 
-You may notice that Swift and C are both extremely fast compared to their competition. I wrote a note specifically for this topic [here](c/note.md). Tl;dr, it's because Clang/LLVM was able to realize it could use the summation formula; this makes the program run in O(n) time rather than O(n^2) time.
+You may notice that Swift and C are both extremely fast compared to their competition. I wrote a note specifically explaining this [here](c/note.md). Tl;dr, it's because Clang/LLVM was able to realize it could use the summation formula; this makes the program compiled with Clang run in O(n) time rather than O(n^2) time.
 
 Every result here is from running the programs with a range of 10,000 to 10,020 (inclusive).
 

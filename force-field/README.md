@@ -1,8 +1,8 @@
 # The test
 
-This test uses object orientation to compute a discrete approximation of electrostatic (inverse square) repulsion. It creates two "particles" and continually computes the force vectors each one has on the other. It then applies these forces to the particles' velocities, and then the velocities are applied to the particles' positions.
+This test uses object orientation to compute a discrete approximation of electrostatic (inverse square) repulsion. It creates two "particles" and continually computes the force vectors each one has on the other. It then applies these forces to the particles' velocities, and then it applies the velocities to the particles' positions.
 
-The program takes two arguments: the discrete amount of time between each "frame" and then number of frames to approximate with.
+The program takes two arguments: the discrete amount of time between each "frame" and the number of frames to approximate with.
 
 This is the most involved of the benchmarks I've created so far. It primarily serves to test a language's object creation/destruction efficiency. It also serves to test floating point and vectorization optimizations of a language.
 
@@ -10,9 +10,9 @@ Because this is the most involved test, there are many slight differences betwee
 
 # Results
 
-Note that for this test I found it appropriate to use C++ instead of C. In C++, I use stack allocation exclusively to avoid pricey allocations. I believe that this is fair to do because no other language (besides maybe Swift) technically supports such a feature.
+For this test I found it appropriate to use C++ instead of C. In C++, I use stack allocation exclusively to avoid expensive allocations. I believe that this is fair because no other language (besides maybe Swift) technically supports such a feature.
 
-Each time is how long it would take to run the program with a time delta of 0.0001 and a count of 50,000,000. Some results may be scaled.
+The times record how long it would take to run the program with a time delta of 0.0001 and a count of 50,000,000. Some results are scaled.
 
 | Language   | Time (s) |
 |------------|----------|
