@@ -4,6 +4,8 @@ This program has a very inefficient subroutine to compute the sum of every integ
 
 The program takes two arguments which are the start and end indexes. The program will call the rolling average function with each argument between and including these boundaries, printing the result each time.
 
+If you choose to write your own version of this benchmark, refrain from simplifying methods by using builtins or algorithms to compute sums or averages. The point of this benchmark is to test the language's optimizer to see if *it*&ndash;and not you&ndash;is capable of doing such things.
+
 # Results
 
 You may notice that Swift and C are both extremely fast compared to their competition. I wrote a note specifically explaining this [here](c/note.md). Tl;dr, it's because Clang/LLVM was able to realize it could use the summation formula; this makes the program compiled with Clang run in O(n) time rather than O(n^2) time.
