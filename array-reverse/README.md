@@ -4,6 +4,10 @@ This program takes two arguments: the size of an array, and the number of times 
 
 This test shows how close a language's array performance comes to raw memory performance. Additionally, it requires a tight loop and many function calls.
 
+**The true purpose of this test isn't to see how fast a language can reverse an array.** The test is to see how efficient a langauge's array access/write times are. Thus, all tests refrain from using builtins like PHP's `array_reverse()` function.
+
+However, the creation of the array is *not* particularly on display, so you may use a builtin to create it (i.e. Python's `range()`). This is because the time to create the array is insignificant compared to the numerous iterations of the `reverseArray()` call.
+
 # Results
 
 These results all use a list of 100,000 elements. Some results will be scaled (since the Python and Ruby tests take too long otherwise). The end measurement is how long it took (or *would* take) to reverse the array 100,000 times.
