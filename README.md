@@ -11,7 +11,7 @@ These are some simple language benchmarks I am running on the following seven pr
  * Swift - Xcode6, preview 3, "Version 6.0 (6A254o)"
  * PHP - PHP 5.4.24 (cli) (built: Jan 19 2014 21:32:15)
 
-My goal is to compare the performance of different data types and operations in these languages. To do this, I am writing identical programs (as identical as they can get, anyway) in each of the 7 languages. Each benchmark has a README which explains the test and shows my personal results.
+These benchmarks compare performance characteristics of 8 different programming languages. Each benchmark includes a close to identical implementation of the same program in each language. The pre-calculated statistics found in this repository were all collected on the same machine running Mac OS X 10.9.3 with a 2.6GHz Intel Core i7 with 1600 MHz DDR3 RAM.
 
 # Results
 
@@ -69,7 +69,7 @@ Here is a recap of each of the three benchmarks I have done so far. You should r
 |Python 3    |116.3     |
 |Python 2    |132.7     |
 
-*In the rolling average README, you will see an explanation of why C, Swift, and Java are so much faster*
+*In the rolling average README, you will see an explanation of why C, Swift, and Java are so much faster than the rest*
 
 # Fairness
 
