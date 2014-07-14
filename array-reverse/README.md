@@ -32,7 +32,9 @@ For the tests up to and including *C (-O0)* I used the full 100,000 iterations. 
 
 These results use each language's "builtin" reverse method.
 
-| Language | Time (s) |
-|----------|----------|
-|Python 2  |4.520     |
-|Python 3  |4.558     |
+| Language  | Time (s) |
+|-----------|----------|
+|Python 2   |4.520     |
+|Python 3   |4.558     |
+|Ruby       |4.591     |
+|JavaScript |27.748    |
