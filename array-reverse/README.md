@@ -30,7 +30,7 @@ For the tests up to and including *C (-O0)* I used the full 100,000 iterations. 
 
 # Results with builtins
 
-These results use each language's "builtin" reverse method.
+These results use each language's "builtin" reverse method. Interestingly, JavaScript's Array.reverse() is actually slower than reversing the array manually in this case. The rest of the reverse builtins are inline with the optimized C performance.
 
 | Language  | Time (s) |
 |-----------|----------|
