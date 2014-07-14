@@ -9,6 +9,7 @@ These are some simple language benchmarks I am running on the following seven pr
  * Python - both 3.3.0 and 2.7.5
  * Ruby - ruby 2.0.0p451 (2014-02-24 revision 45167)
  * Swift - Xcode6, preview 3, "Version 6.0 (6A254o)"
+ * PHP - PHP 5.4.24 (cli) (built: Jan 19 2014 21:32:15)
 
 My goal is to compare the performance of different data types and operations in these languages. To do this, I am writing identical programs (as identical as they can get, anyway) in each of the 7 languages. Each benchmark has a README which explains the test and shows my personal results.
 
