@@ -28,7 +28,7 @@ These results all use a list of 100,000 elements. Some results will be scaled (s
 
 For the tests up to and including *C (-O0)* I used the full 100,000 iterations. For Swift, I did 10,000 iterations and scaled up by a factor of 10. For Ruby and both Pythons, I used 500 iterations and scaled up by 200.
 
-I noticed that PHP does not appear to perform the array reverse method in O(1) time.
+I do not include PHP here because I discovered that PHP's array does not appear to operate in O(1) time like in other languages. See my [note](php/note.md)
 
 # Results with builtins
 

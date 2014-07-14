@@ -29,6 +29,7 @@ Here is a recap of each of the three benchmarks I have done so far. You should r
 |JavaScript  |16.159    |
 |Dart        |27.875    |
 |Ruby        |300.4     |
+|PHP         |572.9     |
 |Python 2    |717.2     |
 |Python 3    |880.7     |
 
@@ -48,6 +49,8 @@ Here is a recap of each of the three benchmarks I have done so far. You should r
 |Python 3    |1466      |
 |Python 2    |1485      |
 
+*PHP is not listed in this table because it runs the array-reverse benchmark in O(n^2) complexity rather than O(n) complexity and is thus "infinitely" slower.*
+
 [Rolling average benchmark](roll-avg)
 
 | Language   | Time (s) |
@@ -61,10 +64,11 @@ Here is a recap of each of the three benchmarks I have done so far. You should r
 |JavaScript  |1.312     |
 |C (-O0)     |2.763     |
 |Ruby        |31.582    |
+|PHP         |40.175    |
 |Python 3    |116.3     |
 |Python 2    |132.7     |
 
-*In the rolling average README, you will see an explanation of why C and Swift are so much faster*
+*In the rolling average README, you will see an explanation of why C, Swift, and Java are so much faster*
 
 # Fairness
 
