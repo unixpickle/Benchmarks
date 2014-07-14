@@ -2,7 +2,7 @@
 
 These are some simple language benchmarks I am running on the following seven programming languages:
 
- * C - Apple LLVM version 5.0 (clang-500.2.79)
+ * C/C++ - Apple LLVM version 5.0 (clang-500.2.79)
  * Dart - Dart VM version 1.5.3 (Thu Jul 3 02:27:23 2014) on "macos_x64"
  * Java - java version "1.6.0_65"
  * JavaScript - v8 (under node v0.10.29)
