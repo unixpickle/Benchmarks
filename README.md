@@ -9,7 +9,7 @@ These are some simple language benchmarks I am running on the following seven pr
  * Python - both 3.3.0 and 2.7.5
  * Ruby - ruby 2.0.0p451 (2014-02-24 revision 45167)
  * Swift - Xcode6, preview 3, "Version 6.0 (6A254o)"
- * PHP - PHP 5.4.24 (cli) (built: Jan 19 2014 21:32:15)
+ * PHP - PHP 5.5.14 (cli) (built: Jul 13 2014 20:25:49)
 
 These benchmarks compare performance characteristics of 8 different programming languages. Each benchmark includes a close to identical implementation of the same program in each language. The pre-calculated statistics found in this repository were all collected on the same machine running Mac OS X 10.9.3 with a 2.6GHz Intel Core i7 with 1600 MHz DDR3 RAM.
 
