@@ -28,6 +28,8 @@ These results all use a list of 100,000 elements. Some results will be scaled (s
 
 For the tests up to and including *C (-O0)* I used the full 100,000 iterations. For Swift, I did 10,000 iterations and scaled up by a factor of 10. For Ruby and both Pythons, I used 500 iterations and scaled up by 200.
 
+I noticed that PHP does not appear to perform the array reverse method in O(1) time.
+
 # Results with builtins
 
 These results use each language's "builtin" reverse method. Interestingly, JavaScript's Array.reverse() is actually slower than reversing the array manually in this case. The rest of the reverse builtins are inline with the optimized C performance.
@@ -38,3 +40,6 @@ These results use each language's "builtin" reverse method. Interestingly, JavaS
 |Python 3   |4.558     |
 |Ruby       |4.591     |
 |JavaScript |27.748    |
+|PHP        |765.8     |
+
+The PHP benchmark was run using 1000 iterations and scaling by 100.

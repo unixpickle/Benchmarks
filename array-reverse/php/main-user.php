@@ -2,7 +2,7 @@
 
 if ($argc != 3)
 {
-	printf("Usage: %s <size> <iterations>", $argv[0]);
+	printf("Usage: %s <size> <iterations>\n", $argv[0]);
 	exit(1);
 }
 

@@ -27,7 +27,8 @@ The times record how long it would take to run the program with a time delta of 
 |JavaScript  |16.159    |
 |Dart        |27.875    |
 |Ruby        |300.4     |
+|PHP         |572.9     |
 |Python 2    |717.2     |
 |Python 3    |880.7     |
 
-Both Python versions were recorded with 500000 iterations and scaled up by a factor of 100. The Ruby versions was recorded with 1000000 iterations and scaled up by a factor of 50.
+PHP and both Pythons were recorded with 500000 iterations and scaled up by a factor of 100. Ruby was recorded with 1000000 iterations and scaled up by a factor of 50.
