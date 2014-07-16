@@ -60,7 +60,7 @@ Here is a recap of each of the three benchmarks I have done so far. You should r
 |C (-O2)     |0.005     |
 |C (-O3)     |0.005     |
 |Swift       |0.015     |
-|Java        |0.0498    |
+|Java        |0.498     |
 |Dart        |1.028     |
 |JavaScript  |1.312     |
 |C (-O0)     |2.763     |
@@ -69,7 +69,7 @@ Here is a recap of each of the three benchmarks I have done so far. You should r
 |Python 3    |116.3     |
 |Python 2    |132.7     |
 
-*In the rolling average README, you will see an explanation of why C, Swift, and Java are so much faster than the rest*
+*In the rolling average README, you will see an explanation of why C and Swift are so much faster than the rest*
 
 # Fairness
 

@@ -18,7 +18,7 @@ Every result here is from running the programs with a range of 10,000 to 10,020 
 |C (-O2)     |0.005     |
 |C (-O3)     |0.005     |
 |Swift       |0.015     |
-|Java        |0.0498    |
+|Java        |0.498     |
 |Dart        |1.028     |
 |JavaScript  |1.312     |
 |C (-O0)     |2.763     |
