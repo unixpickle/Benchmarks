@@ -13,7 +13,7 @@ These are some simple language benchmarks I am running on the following programm
  * Go - go version go1.4 darwin/amd64
  * C# - Mono JIT compiler version 3.12.0 + Mono C# compiler version 3.12.0.0
 
-These benchmarks compare performance characteristics of 8 different programming languages. Each benchmark includes a close to identical implementation of the same program in each language. The pre-calculated statistics found in this repository were all collected on the same machine with a 2.6GHz Intel Core i7 with 1600 MHz DDR3 RAM. The first set of benchmarks were run under Mac OS X 10.9.3; the second were run under Mac OS X 10.10 (14A389).
+These benchmarks compare performance characteristics of 10 different programming languages. Each benchmark includes a nearly identical implementation of the same program in each language. The pre-calculated statistics found in this repository were all collected on the same machine with a 2.6GHz Intel Core i7 with 1600 MHz DDR3 RAM. The first set of benchmarks were run under Mac OS X 10.9.3; the second were run under Mac OS X 10.10 (14A389).
 
 # Results
 
@@ -84,7 +84,7 @@ Here is a recap of each of the three benchmarks I have done so far. You should r
 
 # Fairness
 
-I tried very hard to make every implementation of each test close in structure. With that being said, some languages have some features others don't, and I easily may have missed a feature I shouldn't have. If this is the case, go ahead and make a pull request or file an issue and explain why I tested a certain language unfairly.
+I tried very hard to make every implementation of each test close in structure. With that being said, some languages have features others don't, and I could have missed a feature along the way. If this is the case, go ahead and make a pull request or file an issue and explain why I tested a certain language unfairly.
 
 None of these tests are the "best way" to do what they do. Instead, the tests are *designed* to be inefficient in order to get a significant result from various optimizers.
 
