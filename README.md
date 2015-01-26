@@ -11,7 +11,7 @@ These are some simple language benchmarks I am running on the following programm
  * Swift - Xcode Version 6.1.1 (6A2008a)
  * PHP - PHP 5.6.5 (cli)
 
-These benchmarks compare performance characteristics of 8 different programming languages. Each benchmark includes a close to identical implementation of the same program in each language. The pre-calculated statistics found in this repository were all collected on the same machine running Mac OS X 10.9.3 with a 2.6GHz Intel Core i7 with 1600 MHz DDR3 RAM.
+These benchmarks compare performance characteristics of 8 different programming languages. Each benchmark includes a close to identical implementation of the same program in each language. The pre-calculated statistics found in this repository were all collected on the same machine with a 2.6GHz Intel Core i7 with 1600 MHz DDR3 RAM. The first set of benchmarks were run under Mac OS X 10.9.3; the second were run under Mac OS X 10.10 (14A389).
 
 # Results
 
