@@ -12,20 +12,22 @@ The creation of the array is *not* particularly on display, so you may use a bui
 
 These results all use a list of 100,000 elements. Some results will be scaled (since the Python and Ruby tests take too long otherwise). The end measurement is how long it took (or *would* take) to reverse the array 100,000 times.
 
-| Language  | Time (s) |
-|-----------|----------|
-|Java       |3.776     |
-|C (-O3)    |4.273     |
-|C (-O2)    |4.367     |
-|C (-O1)    |4.395     |
-|Go         |7.825     |
-|Dart       |8.988     |
-|JavaScript |13.162    |
-|C (-O0)    |17.034    |
-|Swift      |25.658    |
-|Ruby       |1439      |
-|Python 3   |1466      |
-|Python 2   |1485      |
+| Language   | Time (s) |
+|------------|----------|
+|Java        |3.776     |
+|C (-O3)     |4.273     |
+|C (-O2)     |4.367     |
+|C (-O1)     |4.395     |
+|Go          |7.825     |
+|C# (-O=all) |8.378     |
+|Dart        |8.988     |
+|JavaScript  |13.162    |
+|C# (normal) |14.071    |
+|C (-O0)     |17.034    |
+|Swift       |25.658    |
+|Ruby        |1439      |
+|Python 3    |1466      |
+|Python 2    |1485      |
 
 For the tests up to and including *Swift* I used the full 100,000 iterations. For Ruby and both Pythons, I used 500 iterations and scaled up by 200.
 

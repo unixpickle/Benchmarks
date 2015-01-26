@@ -26,6 +26,8 @@ The times record how long it would take to run the program with a time delta of 
 |Dart        |5.844     |
 |Swift       |7.675     |
 |C++ (-O0)   |7.773     |
+|C# (-O=all) |10.639    |
+|C# (normal) |10.712    |
 |JavaScript  |16.159    |
 |Ruby        |300.4     |
 |PHP         |557.2     |
