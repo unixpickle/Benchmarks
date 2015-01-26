@@ -10,6 +10,7 @@ These are some simple language benchmarks I am running on the following programm
  * Ruby - ruby 2.0.0p451 (2014-02-24 revision 45167)
  * Swift - Xcode Version 6.1.1 (6A2008a)
  * PHP - PHP 5.6.5 (cli)
+ * Go - go version go1.4 darwin/amd64
 
 These benchmarks compare performance characteristics of 8 different programming languages. Each benchmark includes a close to identical implementation of the same program in each language. The pre-calculated statistics found in this repository were all collected on the same machine with a 2.6GHz Intel Core i7 with 1600 MHz DDR3 RAM. The first set of benchmarks were run under Mac OS X 10.9.3; the second were run under Mac OS X 10.10 (14A389).
 
@@ -23,32 +24,34 @@ Here is a recap of each of the three benchmarks I have done so far. You should r
 |------------|----------|
 |C++ (-O2)   |1.892     |
 |C++ (-O3)   |1.895     |
-|Java        |2.610     |
+|Java        |2.469     |
+|Go          |3.581     |
 |C++ (-O1)   |5.290     |
+|Dart        |5.844     |
+|Swift       |7.675     |
 |C++ (-O0)   |7.773     |
-|Swift       |9.060     |
 |JavaScript  |16.159    |
-|Dart        |27.875    |
 |Ruby        |300.4     |
-|PHP         |572.9     |
+|PHP         |557.2     |
 |Python 2    |717.2     |
 |Python 3    |880.7     |
 
 [Array reverse benchmark](array-reverse)
 
-| Language   | Time (s) |
-|------------|----------|
-|Java        |3.776     |
-|C (-O3)     |4.273     |
-|C (-O2)     |4.367     |
-|C (-O1)     |4.395     |
-|Dart        |10.485    |
-|JavaScript  |13.162    |
-|C (-O0)     |17.034    |
-|Swift       |112.5     |
-|Ruby        |1439      |
-|Python 3    |1466      |
-|Python 2    |1485      |
+| Language  | Time (s) |
+|-----------|----------|
+|Java       |3.776     |
+|C (-O3)    |4.273     |
+|C (-O2)    |4.367     |
+|C (-O1)    |4.395     |
+|Go         |7.825     |
+|Dart       |8.988     |
+|JavaScript |13.162    |
+|C (-O0)    |17.034    |
+|Swift      |25.658    |
+|Ruby       |1439      |
+|Python 3   |1466      |
+|Python 2   |1485      |
 
 *PHP is not listed in this table because it runs the array-reverse benchmark in O(n^2) complexity rather than O(n) complexity and is thus "infinitely" slower.*
 
@@ -59,13 +62,14 @@ Here is a recap of each of the three benchmarks I have done so far. You should r
 |C (-O1)     |0.005     |
 |C (-O2)     |0.005     |
 |C (-O3)     |0.005     |
-|Swift       |0.015     |
-|Java        |0.498     |
-|Dart        |1.028     |
+|Swift       |0.008     |
+|Java        |0.463     |
+|Go          |0.603     |
+|Dart        |1.057     |
 |JavaScript  |1.312     |
 |C (-O0)     |2.763     |
 |Ruby        |31.582    |
-|PHP         |40.175    |
+|PHP         |40.925    |
 |Python 3    |116.3     |
 |Python 2    |132.7     |
 

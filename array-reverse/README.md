@@ -18,6 +18,7 @@ These results all use a list of 100,000 elements. Some results will be scaled (s
 |C (-O3)    |4.273     |
 |C (-O2)    |4.367     |
 |C (-O1)    |4.395     |
+|Go         |7.825     |
 |Dart       |8.988     |
 |JavaScript |13.162    |
 |C (-O0)    |17.034    |

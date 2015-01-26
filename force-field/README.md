@@ -12,7 +12,7 @@ Because this is the most involved test, there are many slight differences betwee
 
 # Results
 
-For this test I found it appropriate to use C++ instead of C. In C++, I use stack allocation exclusively to avoid expensive allocations. I believe that this is fair because no other language (besides maybe Swift) technically supports such a feature.
+For this test I found it appropriate to use C++ instead of C. In C++, I use stack allocation exclusively to avoid expensive allocations. I believe that this is fair because few languages explicitly support such a feature.
 
 The times record how long it would take to run the program with a time delta of 0.0001 and a count of 50,000,000. Some results are scaled.
 
@@ -21,6 +21,7 @@ The times record how long it would take to run the program with a time delta of 
 |C++ (-O2)   |1.892     |
 |C++ (-O3)   |1.895     |
 |Java        |2.469     |
+|Go          |3.581     |
 |C++ (-O1)   |5.290     |
 |Dart        |5.844     |
 |Swift       |7.675     |
