@@ -8,7 +8,7 @@
 
 import Foundation
 
-func reverseArray(inout theList: [Int]) {
+func reverseArray(inout theList: Array<Int>) {
   for i in 0...(theList.count >> 1) - 1 {
     let lastIdx = theList.count - i - 1
     let lastValue = theList[lastIdx]
@@ -26,7 +26,7 @@ let size = String.fromCString(C_ARGV[1])!.toInt()!
 let iterations = String.fromCString(C_ARGV[2])!.toInt()!
 
 
-var list = [Int](count: size, repeatedValue: 0)
+var list = Array<Int>(count: size, repeatedValue: 0)
 for i in 0...size - 1 {
   list[i] = i
 }

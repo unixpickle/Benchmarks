@@ -20,15 +20,15 @@ The times record how long it would take to run the program with a time delta of 
 |------------|----------|
 |C++ (-O2)   |1.892     |
 |C++ (-O3)   |1.895     |
-|Java        |2.610     |
+|Java        |2.469     |
 |C++ (-O1)   |5.290     |
+|Dart        |5.844     |
+|Swift       |7.675     |
 |C++ (-O0)   |7.773     |
-|Swift       |9.060     |
 |JavaScript  |16.159    |
-|Dart        |27.875    |
 |Ruby        |300.4     |
-|PHP         |572.9     |
+|PHP         |557.2     |
 |Python 2    |717.2     |
 |Python 3    |880.7     |
 
-PHP and both Pythons were recorded with 500000 iterations and scaled up by a factor of 100. Ruby was recorded with 1000000 iterations and scaled up by a factor of 50.
+Both Pythons were recorded with 500000 iterations and scaled up by a factor of 100. Ruby and PHP were recorded with 1000000 iterations and scaled up by a factor of 50.

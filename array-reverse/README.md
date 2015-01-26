@@ -18,15 +18,15 @@ These results all use a list of 100,000 elements. Some results will be scaled (s
 |C (-O3)    |4.273     |
 |C (-O2)    |4.367     |
 |C (-O1)    |4.395     |
-|Dart       |10.485    |
+|Dart       |8.988     |
 |JavaScript |13.162    |
 |C (-O0)    |17.034    |
-|Swift      |112.5     |
+|Swift      |25.658    |
 |Ruby       |1439      |
 |Python 3   |1466      |
 |Python 2   |1485      |
 
-For the tests up to and including *C (-O0)* I used the full 100,000 iterations. For Swift, I did 10,000 iterations and scaled up by a factor of 10. For Ruby and both Pythons, I used 500 iterations and scaled up by 200.
+For the tests up to and including *Swift* I used the full 100,000 iterations. For Ruby and both Pythons, I used 500 iterations and scaled up by 200.
 
 I do not include PHP here because I discovered that PHP's array does not appear to operate in O(1) time like in other languages. See my [note](php/note.md)
 

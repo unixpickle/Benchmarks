@@ -17,12 +17,12 @@ Every result here is from running the programs with a range of 10,000 to 10,020 
 |C (-O1)     |0.005     |
 |C (-O2)     |0.005     |
 |C (-O3)     |0.005     |
-|Swift       |0.015     |
-|Java        |0.498     |
-|Dart        |1.028     |
+|Swift       |0.008     |
+|Java        |0.463     |
+|Dart        |1.057     |
 |JavaScript  |1.312     |
 |C (-O0)     |2.763     |
 |Ruby        |31.582    |
-|PHP         |40.175    |
+|PHP         |40.925    |
 |Python 3    |116.3     |
 |Python 2    |132.7     |

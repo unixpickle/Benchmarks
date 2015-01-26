@@ -49,6 +49,6 @@ func -(lhs: Vector, rhs: Vector) -> Vector {
   return Vector(x: lhs.x - rhs.x, y: lhs.y - rhs.y);
 }
 
-@assignment func += (inout left: Vector, right: Vector) {
+func += (inout left: Vector, right: Vector) {
   left = left + right;
 }

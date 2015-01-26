@@ -1,15 +1,15 @@
 # Benchmarks
 
-These are some simple language benchmarks I am running on the following seven programming languages:
+These are some simple language benchmarks I am running on the following programming languages:
 
  * C/C++ - Apple LLVM version 5.0 (clang-500.2.79)
- * Dart - Dart VM version 1.5.3 (Thu Jul 3 02:27:23 2014) on "macos_x64"
- * Java - java version "1.6.0_65"
+ * Dart VM version: 1.8.5 (Tue Jan 13 13:04:11 2015) on "macos_ia32"
+ * Java - java version "1.7.0_71"
  * JavaScript - v8 (under node v0.10.29)
  * Python - both 3.3.0 and 2.7.5
  * Ruby - ruby 2.0.0p451 (2014-02-24 revision 45167)
- * Swift - Xcode6, preview 3, "Version 6.0 (6A254o)"
- * PHP - PHP 5.5.14 (cli) (built: Jul 13 2014 20:25:49)
+ * Swift - Xcode Version 6.1.1 (6A2008a)
+ * PHP - PHP 5.6.5 (cli)
 
 These benchmarks compare performance characteristics of 8 different programming languages. Each benchmark includes a close to identical implementation of the same program in each language. The pre-calculated statistics found in this repository were all collected on the same machine running Mac OS X 10.9.3 with a 2.6GHz Intel Core i7 with 1600 MHz DDR3 RAM.
 
