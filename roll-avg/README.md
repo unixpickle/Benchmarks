@@ -27,5 +27,5 @@ Every result here is from running the programs with a range of 10,000 to 10,020 
 |C (-O0)     |2.763     |
 |Ruby        |31.582    |
 |PHP         |40.925    |
-|Python 3    |116.3     |
-|Python 2    |132.7     |
+|Python 2    |71.550    |
+|Python 3    |81.143    |

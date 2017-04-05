@@ -77,8 +77,8 @@ Here is a recap of each of the three benchmarks I have done so far. You should r
 |C (-O0)     |2.763     |
 |Ruby        |31.582    |
 |PHP         |40.925    |
-|Python 3    |116.3     |
-|Python 2    |132.7     |
+|Python 2    |71.550    |
+|Python 3    |81.143    |
 
 *In the rolling average README, you will see an explanation of why C and Swift are so much faster than the rest*
 
