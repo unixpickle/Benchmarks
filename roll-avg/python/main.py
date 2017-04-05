@@ -3,17 +3,17 @@ import sys
 def addUpTo(dest):
   summation = 0
   i = 1
-  while i <= dest:
+  d = dest+1
+  for i in range(1,d):
     summation += i
-    i += 1
+    
   return summation
 
 def rollAverage(dest):
   average = 0.0
   i = 0
-  while i < dest:
+  for i in range(dest):
     average = (average + addUpTo(i)) / 2
-    i += 1
   return average
 
 if len(sys.argv) != 3:
