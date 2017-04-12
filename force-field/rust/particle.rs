@@ -18,15 +18,12 @@ impl Particle {
   }
 
   pub fn force_from(&self, other: &Particle) -> Vector {
-    let distance = self.position - other.position;
+    let distance = other.position - self.position;
 
     // G*m1*m1/d^2, assuming G=1
     let magnitude = self.mass * other.mass / distance.dot(&distance);
 
-    let mut vector = distance.normalize();
-    vector.scale(magnitude);
-
-    vector
+    magnitude * distance.normalize()
   }
 
   pub fn apply_force(&mut self, force: Vector, time_delta: f64) {
