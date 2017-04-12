@@ -26,11 +26,6 @@ impl Vector {
     self.x * v.x + self.y * v.y
   }
 
-  pub fn scale(&mut self, factor: f64) {
-    self.x *= factor;
-    self.y *= factor;
-  }
-
   pub fn normalize(&self) -> Vector {
     let magnitude = self.dot(&self).sqrt();
 
@@ -38,10 +33,7 @@ impl Vector {
       return Vector::new();
     }
 
-    let mut vector = self.clone();
-    vector.scale(1f64 / magnitude);
-
-    vector
+    (1f64 / magnitude) * *self
   }
 }
 
