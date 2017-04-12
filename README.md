@@ -26,6 +26,7 @@ Here is a recap of each of the three benchmarks I have done so far. You should r
 |------------|----------|
 |C++ (-O2)   |1.892     |
 |C++ (-O3)   |1.895     |
+|Rust        |2.105     |
 |Java        |2.469     |
 |Go          |3.581     |
 |C++ (-O1)   |5.290     |
