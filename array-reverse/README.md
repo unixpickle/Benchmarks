@@ -18,6 +18,7 @@ These results all use a list of 100,000 elements. Some results will be scaled (s
 |C (-O3)     |4.273     |
 |C (-O2)     |4.367     |
 |C (-O1)     |4.395     |
+|Rust        |5.698     |
 |Go          |7.825     |
 |C# (-O=all) |8.378     |
 |Dart        |8.988     |
@@ -42,6 +43,7 @@ These results use each language's "builtin" reverse method. Interestingly, JavaS
 |Python 2   |4.520     |
 |Python 3   |4.558     |
 |Ruby       |4.591     |
+|Rust       |5.565     |
 |JavaScript |27.748    |
 |PHP        |765.8     |
 

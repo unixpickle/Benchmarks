@@ -20,6 +20,7 @@ The times record how long it would take to run the program with a time delta of 
 |------------|----------|
 |C++ (-O2)   |1.892     |
 |C++ (-O3)   |1.895     |
+|Rust        |2.097<sup>\*</sup> |
 |Java        |2.469     |
 |Go          |3.581     |
 |C++ (-O1)   |5.290     |
@@ -35,3 +36,5 @@ The times record how long it would take to run the program with a time delta of 
 |Python 3    |880.7     |
 
 Both Pythons were recorded with 500000 iterations and scaled up by a factor of 100. Ruby and PHP were recorded with 1000000 iterations and scaled up by a factor of 50.
+
+<sup>\*</sup> at the moment, the Rust benchmark prints the wrong output. This will be investigated.

@@ -12,6 +12,7 @@ These are some simple language benchmarks I am running on the following programm
  * PHP - PHP 5.6.5 (cli)
  * Go - go version go1.4 darwin/amd64
  * C# - Mono JIT compiler version 3.12.0 + Mono C# compiler version 3.12.0.0
+ * Rust - rustc 1.18.0-nightly (c58c928e6 2017-04-11)
 
 These benchmarks compare performance characteristics of 10 different programming languages. Each benchmark includes a nearly identical implementation of the same program in each language. The pre-calculated statistics found in this repository were all collected on the same machine with a 2.6GHz Intel Core i7 with 1600 MHz DDR3 RAM. The first set of benchmarks were run under Mac OS X 10.9.3; the second were run under Mac OS X 10.10 (14A389).
 
@@ -47,6 +48,7 @@ Here is a recap of each of the three benchmarks I have done so far. You should r
 |C (-O3)     |4.273     |
 |C (-O2)     |4.367     |
 |C (-O1)     |4.395     |
+|Rust        |5.698     |
 |Go          |7.825     |
 |C# (-O=all) |8.378     |
 |Dart        |8.988     |
@@ -67,6 +69,7 @@ Here is a recap of each of the three benchmarks I have done so far. You should r
 |C (-O1)     |0.005     |
 |C (-O2)     |0.005     |
 |C (-O3)     |0.005     |
+|Rust        |0.007     |
 |Swift       |0.008     |
 |Java        |0.463     |
 |Go          |0.603     |

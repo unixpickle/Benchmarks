@@ -8,7 +8,7 @@ If you choose to write your own version of this benchmark, refrain from simplify
 
 # Results
 
-You may notice that Swift and C are both extremely fast compared to their competition. I wrote a note specifically explaining this [here](c/note.md). Tl;dr, it's because Clang/LLVM was able to realize it could use the summation formula; this makes the program compiled with Clang run in O(n) time rather than O(n^2) time.
+You may notice that Swift, Rust, and C are both extremely fast compared to their competition. I wrote a note specifically explaining this [here](c/note.md). Tl;dr, it's because Clang/LLVM was able to realize it could use the summation formula; this makes the program compiled with Clang run in O(n) time rather than O(n^2) time.
 
 Every result here is from running the programs with a range of 10,000 to 10,020 (inclusive).
 
@@ -17,6 +17,7 @@ Every result here is from running the programs with a range of 10,000 to 10,020 
 |C (-O1)     |0.005     |
 |C (-O2)     |0.005     |
 |C (-O3)     |0.005     |
+|Rust        |0.007     |
 |Swift       |0.008     |
 |Java        |0.463     |
 |Go          |0.603     |
