@@ -1,13 +1,7 @@
 use std::env::args;
 
 fn add_up_to(dest: usize) -> usize {
-  let mut sum: usize = 0;
-
-  for i in 1..dest + 1 {
-    sum += i;
-  }
-
-  sum
+  (1..dest + 1).sum()
 }
 
 fn roll_average(dest: usize) -> f64 {

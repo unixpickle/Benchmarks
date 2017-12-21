@@ -1,11 +1,9 @@
 use std::env::args;
 
 fn reverse_array(the_list: &mut Vec<usize>) {
-  for i in 0..the_list.len() >> 1 {
+  for i in 0..the_list.len() / 2 {
     let last_idx = the_list.len() - i - 1;
-    let last_value = the_list[last_idx];
-    the_list[last_idx] = the_list[i];
-    the_list[i] = last_value;
+    the_list.swap(i, last_idx);
   }
 }
 
