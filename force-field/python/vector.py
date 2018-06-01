@@ -22,7 +22,7 @@ class Vector:
     return self.x * v.x + self.y * v.y
   
   def normalize(self):
-    magnitude = math.sqrt(self.dot(self))
+    magnitude = math.sqrt(self.x**2 + self.y**2)
     if magnitude == 0: return Vector(0, 0)
     return self.scale(1.0 / magnitude)
   
