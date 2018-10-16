@@ -26,6 +26,7 @@ Every result here is from running the programs with a range of 10,000 to 10,020 
 |Dart        |1.057     |
 |JavaScript  |1.312     |
 |C (-O0)     |2.763     |
+|Julia 1.0   |2.798     |
 |Ruby        |31.582    |
 |PHP         |40.925    |
 |Python 2    |71.550    |
